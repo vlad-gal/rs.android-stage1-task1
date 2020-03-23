@@ -6,6 +6,7 @@ class HappyArray {
     fun convertToHappy(sadArray: IntArray): IntArray {
         val array: ArrayList<Int> = ArrayList(sadArray.toList())
         var u = 0
+
         while (u < array.size) {
             for (i in array.indices) {
                 if (array.size<3){
